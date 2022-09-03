@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #192a56;
+    background-color: #487eb0;
 }
 
 ul{
@@ -35,7 +35,7 @@ ul{
     justify-content: center;
     align-items: center;
     opacity: 1;
-    background-color: #8c7ae6;
+    background-color: #353b48;
     transition: 0.3s ease-in-out;
     gap: 20px;
 }
