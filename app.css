@@ -18,7 +18,7 @@ ul{
 
 .container .mini-projects {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 100%;
     grid-template-rows: auto;
     gap: 3px;
 }
@@ -71,4 +71,16 @@ ul{
     opacity: 0;
     width: 100%;
     height: inherit;
+}
+
+@media(min-width:768px){
+    .container .mini-projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width:1200px){
+    .container .mini-projects {
+        grid-template-columns: repeat(5, 1fr);
+    }
 }
